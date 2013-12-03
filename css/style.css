@@ -1,22 +1,22 @@
 body {
-  font-family: 'Nunito', sans-serif;
-  color: #FAF3BC;
-  background:#420600 url('img/bg-texture.jpg') repeat;
+  font-family: 'Poiret One', sans-serif;
+  color:#EEEEEE;
+  background: #EED877 url('img/website-backgrounds-hd-arena.jpg') repeat;
 }
 
 a {
-  color: #4FB69F;
+  color: #EEEEEE;
   text-decoration: none;
 }
 
 h1{
-  font-size: 1.750em;
+  font-size: 2.000em;
   letter-spacing: -1.5px;
 }
 
 h2 {
-  font-size: 1.500em;
-  color: #B4C34F;
+  font-size: 1.750em;
+  color: #4FB69F;
 }
 
 .btn {
@@ -51,12 +51,21 @@ ul.nav li a {
   margin:50px 0 75px 0;
 }
 
-#new-cupcakes img {
+#travel-fun img {
   border: 8px solid #FAF3BC;
   margin: 0 0 20px 0;
 }
 
-#featured-cupcake img {
+#getting-out img {
+  border: 8px solid #FAF3BC;
+}
+
+#sealion img {
+  border: 8px solid #FAF3BC;
+  margin: 40px 0 0 0;
+}
+
+#passport img{
   border: 8px solid #FAF3BC;
 }
 
