@@ -2,11 +2,28 @@ body {
   font-family: 'Poiret One', sans-serif;
   color:#EEEEEE;
   background: #EED877 url('img/website-backgrounds-hd-arena.jpg') repeat;
+  margin: 5%;
+}
+
+.container {
+  margin-left: 5%;
+}
+
+.about {
+  margin: 0 20px 10px 0;
+  float: left;
+  display: block;
+  width: 1000px;
 }
 
 a {
   color: #EEEEEE;
   text-decoration: none;
+}
+
+.headline {
+  margin-left: 40%;
+  font-size: 3em;
 }
 
 h1{
@@ -22,10 +39,13 @@ h2 {
 .btn {
   color: #FAF3BC;
   background: #4FB69F url('img/texture.png') no-repeat right top;
-  padding: 15px 30px;
-  margin: 40px 0px;
-  border-radius: 25px;
+  padding: 5px 10px;
+  border-radius: 20px;
   text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  display: inline;
+  margin-bottom: 8px;
 }
 
 .btn:hover {
@@ -33,9 +53,12 @@ h2 {
 }
 
 ul.nav {
-  margin: 120px 0 0 0;
+  margin: 0 auto;
   list-style: none;
-  float:right;
+  width: 40%;
+  position: relative;
+  left: 5%;
+  padding-top: 1%;
 }
 
 ul.nav li {
@@ -52,21 +75,18 @@ ul.nav li a {
 }
 
 #travel-fun img {
-  border: 8px solid #FAF3BC;
+  border: 8px solid lightgrey;
+  border-style: groove;
   margin: 0 0 20px 0;
+  max-width:100%;
+  max-height:100%;
 }
 
 #getting-out img {
-  border: 8px solid #FAF3BC;
-}
-
-#sealion img {
-  border: 8px solid #FAF3BC;
-  margin: 40px 0 0 0;
-}
-
-#passport img{
-  border: 8px solid #FAF3BC;
+  border: 8px solid lightgrey;
+  border-style: groove;
+  max-width:100%;
+  max-height:100%;
 }
 
 #copyright {
