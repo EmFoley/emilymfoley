@@ -78,15 +78,14 @@ ul.nav li a {
   border: 8px solid lightgrey;
   border-style: groove;
   margin: 0 0 20px 0;
-  max-width:100%;
-  max-height:100%;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 #getting-out img {
   border: 8px solid lightgrey;
   border-style: groove;
-  max-width:100%;
-  max-height:100%;
+  max-width: 90%;
 }
 
 #copyright {
