@@ -95,4 +95,12 @@ ul.nav li a {
   text-align: center;
 }
 
+/*Media query for iPhone5*/
+
+@media screen and (device-aspect-ratio: 2/3) {
+  ul.nav li {
+  float:left;
+  margin-right: 5%;
+}
+}
 
