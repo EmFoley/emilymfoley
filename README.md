@@ -1,6 +1,6 @@
 emilymfoley
 ===========
 
-Portfolio website
+Personal website
 
 
