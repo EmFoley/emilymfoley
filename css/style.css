@@ -10,3 +10,7 @@ body {
 .logo {
  margin: 1em 3em;
 }
+
+#decade-switcher {
+ width: 100px;
+}
