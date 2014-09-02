@@ -3,34 +3,38 @@
 <head>
 <title>Emily Foley: Web Developer</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="normalize.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="header">
-    <div class="logo">
+  <div class="container">
+  <div class="top">
+    <div id="logo" class="header">
+      <img src="http://placehold.it/140x100"/>
     </div>
       <div class="navbar">
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">Suitcase Foley</a>
-        <div class="decade_switcher">
-          <input type="checkbox" id="switch" name="switcher"/>
-          <label for="switcher">Switch Current Viewing Decade!</label>
+        <a href="#" class="header">GitHub</a>
+        <a href="#" class="header">LinkedIn</a>
+        <a href="#" class="header">Suitcase Foley</a>
+        <div id="decade_switcher" class="header">
+          <form>
+          Pick a decade for viewing this site! <input type="checkbox" name="decade" value="2010s"> 2010s
+          <input type="checkbox" name="decade" value="1990s"> 1990s
+          </form>
         </div>
       </div>
     </div>
   <div class="photo">
   </div>
-  <div class="about">
-    <p>Emily Foley is a Unicorn.</p>
-  </div>
-  <div class="project_screenshots">
-    <div class="project_1"></div>
-    <div class="project_2"></div>
-    <div class="project_3"></div>
-  </div>
-  <div class="scrolling_marquee">
-  </div>
+    <div class="about">
+      <p>Emily Foley is a Unicorn.</p>
+    </div>
+    <div class="project_screenshots">
+        <div class="project_1"></div>
+        <div class="project_2"></div>
+        <div class="project_3"></div>
+    </div>
+    <div class="scrolling_marquee">
+    </div>
+</div>
 </body>
 </html>

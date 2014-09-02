@@ -3,7 +3,10 @@ body {
 }
 
 .header {
-  width: 100%;
-  height: 15%;
-  background: blue;
+  float: left;
+  clear: both;
+}
+
+.logo {
+ margin: 1em 3em;
 }
