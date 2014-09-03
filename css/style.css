@@ -2,15 +2,32 @@ body {
   margin: 0;
 }
 
-.header {
-  float: left;
-  clear: both;
-}
-
-.logo {
- margin: 1em 3em;
-}
-
 #decade-switcher {
  width: 100px;
+}
+
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
 }
