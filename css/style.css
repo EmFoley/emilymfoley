@@ -2,13 +2,6 @@ body {
   margin: 0;
 }
 
-#decade-switcher {
- width: 100px;
-}
-
-#decade {
-	width: 100px;
-}
 
 .section {
 	clear: both;
