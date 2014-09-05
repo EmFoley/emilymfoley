@@ -1,12 +1,10 @@
-body {
-  margin: 0;
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
-<<<<<<< HEAD
 /*  SECTIONS  */
-=======
-
->>>>>>> 0de5f063bec58e80007dc66dd942918d561b72ac
 .section {
 	clear: both;
 	padding: 0px;
@@ -19,7 +17,9 @@ body {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { 
+	margin-left: 0; 
+}
 
 
 /*  GROUPING  */
