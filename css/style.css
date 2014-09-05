@@ -2,14 +2,7 @@ body {
   margin: 0;
 }
 
-#decade-switcher {
- width: 100px;
-}
-
-#decade {
-	width: 100px;
-}
-
+/*  SECTIONS  */
 .section {
 	clear: both;
 	padding: 0px;
@@ -34,21 +27,28 @@ body {
 .group:after {
 	clear:both;
 }
+.group {
+    zoom:1; /* For IE 6/7 */
+}
 
-
+/*  GRID OF THREE  */
 .span_3_of_3 {
-	width: 100%; 
+	width: 100%;
 }
-
 .span_2_of_3 {
-	width: 66.13%; 
+	width: 66.1%;
 }
-
 .span_1_of_3 {
-	width: 32.26%; 
+	width: 32.2%;
 }
 
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
 
 @media only screen and (max-width: 480px) {
 	.span_3_of_3 {
