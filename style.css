@@ -7,6 +7,9 @@ html,body {
      overflow-x: hidden;
  }
 
+@font-face { font-family: AUdimat-Bold; src: url('AUdimat-Bold.otf'); } 
+@font-face { font-family: AUdimat-Regular; src: url('AUdimat-Regular.otf'); } 
+
 a {
 	text-decoration: none;
 	color: #FFFFFF;
@@ -22,6 +25,7 @@ a {
 	display: inline;
 	list-style-type: none;
 	line-height: 5;
+	font-family: 'AUdimat-Regular';
 }
 
 .nav p {
@@ -32,10 +36,14 @@ a {
 
 .topnav {
 	background-color: #E85607;
+	height: 10em;
 }
 
 /*STYLING NAV LINKS*/
 
 a#emilymfoley {
-	}
+	font-family: 'AUdimat-Bold';
+	font-size: 3em;
+	
+}
 
